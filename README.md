@@ -32,7 +32,7 @@ The smart contract provides a peer-to-peer lending platform where borrowers can 
 ## Contract Deployment & Testing
 
 The contract has been fully developed and tested locally using the Hardhat network. All 7 test cases, covering all core functionalities including loan requests, funding, repayment, the early repayment rebate, collateral claims, and error handling, have passed successfully.
-
+rm -rf .git
 Due to regional restrictions and faucet requirements for a mainnet ETH balance, I was unable to acquire Sepolia test ETH to deploy the contract to the public testnet.
 
 As proof of the contract's functionality, here is the complete output from the successful Hardhat test run:
